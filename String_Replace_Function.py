@@ -1,3 +1,7 @@
+#This block of code replaces a specified section of a string with another specified string. It is essentially a word replacer. 
+#This block of code also allows the user to specify how many times they want to perform that replacement.
+#This was a practice problem for myself to reconstruct python's internal .replace function.
+
 def stringreplacer(phrase,object1,replace,count):
     p = len(phrase)
     o = len(object1)
